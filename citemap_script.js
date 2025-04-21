@@ -1,6 +1,6 @@
 //Elevator Buttons
 function floor(floorNumber) {
-    // Hide inactive maps
+    // Hide inactive floors
     const maps = document.querySelectorAll('.map');
     maps.forEach(map => map.classList.remove('active'));
 

@@ -95,7 +95,6 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    background-color: red;
 }
 
 .map2 {
@@ -104,7 +103,6 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    background-color: green;
 }
 
 .map3 {
@@ -113,7 +111,6 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    background-color: yellow;
 }
 
 .map4 {
@@ -122,7 +119,6 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    background-color: gray;
 }
 /*Active Map*/
 .map {
