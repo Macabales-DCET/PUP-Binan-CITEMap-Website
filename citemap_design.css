@@ -1,0 +1,138 @@
+/*Title*/
+.header {
+    overflow: hidden;
+    background-color: #7B1113;
+}
+.logo {
+    float: left;
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.title {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 750;
+    font-family: 'Segoe UI';
+    margin-left: 10px;
+}
+
+.space {
+    height: 15px;
+}
+/*Floor Buttons*/
+.floor1 {
+    background-color: grey;
+    padding: 7px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI';
+}
+.floor1:hover {
+    background-color: #7B1113;
+}
+
+.floor2 {
+    background-color: grey;
+    padding: 7px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI';
+}
+.floor2:hover {
+    background-color: #7B1113;
+}
+
+.floor3 {
+    background-color: grey;
+    padding: 7px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI';
+}
+.floor3:hover {
+    background-color: #7B1113;
+}
+
+.floor4 {
+    background-color: grey;
+    padding: 7px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI';
+}
+.floor4:hover {
+    background-color: #7B1113;
+}
+.space2 {
+    height: 20px;
+}
+/*Maps*/
+.map1 {
+    width: 100%;
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: red;
+}
+
+.map2 {
+    width: 100%;
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: green;
+}
+
+.map3 {
+    width: 100%;
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: yellow;
+}
+
+.map4 {
+    width: 100%;
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: gray;
+}
+/*Active Map*/
+.map {
+    display: none;
+}
+
+.map.active {
+    display: block;
+}
+
+.floorbutton.active {
+    background-color: #7B1113;
+}
