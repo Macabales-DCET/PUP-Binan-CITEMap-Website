@@ -20,9 +20,16 @@
         <button onclick="floor(4)" id="floor4id" class="floor4 floorbutton">4th Floor</button>
     </div>
 <div class="space2"></div>
-    <div class="map map1 active">
-        <img src="Floor1.png" width="100%" height="100%">
-        <map name="groundmap"></map>
+    <div class="map map1 active" alt="PUP First Floor">
+        <img src="Floor1.png" width="100%" height="100%" usemap="#groundmap">
+        <map name="groundmap">
+            <area shape="poly" coords="169,114,240,115,240,220,219,304,170,303" title="Chapel" onclick="chapelButton()" href="">
+            <area shape="rect" coords="349,116,433,213" title="115" onclick="r115Button()" href="">
+            <area shape="rect" coords="736,289,874,388" title="104" onclick="r104Button()" href="">
+            <area shape="rect" coords="1151,114,1286,390" title="Open Area" onclick="openButton()" href="">
+            <area shape="rect" coords="1135,406,1295,487" title="Canteen" onclick="canteenButton()" href="">
+            <area shape="rect" coords="458,403,820,488" title="Parking Lot" onclick="parkingButton()" href="">
+        </map>
     </div>
     
     <div class="map map2">
