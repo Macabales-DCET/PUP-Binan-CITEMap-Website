@@ -19,8 +19,8 @@ window.onload = () => {
   };
 
 // Room Buttons Testing
-function chapelButton() {
-    alert("This is the campus' Chapel.")
+function prayroomButton() {
+    alert("This is the campus' Prayer Room.")
 }
 function r115Button() {
     alert("This is room no.115.")

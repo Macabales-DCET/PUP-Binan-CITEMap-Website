@@ -26,6 +26,10 @@
     height: 15px;
 }
 /*Floor Buttons*/
+.elevator {
+    display: block;
+}
+
 .floor1 {
     background-color: grey;
     padding: 7px;
@@ -93,24 +97,32 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    width: 1500px;
+    height: 700px;
 }
 
 .map2 {
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    width: 1500px;
+    height: 700px;
 }
 
 .map3 {
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    width: 1500px;
+    height: 700px;
 }
 
 .map4 {
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    width: 1500px;
+    height: 700px;
 }
 /*Active Map*/
 .map {
