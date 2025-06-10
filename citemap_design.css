@@ -137,3 +137,87 @@
     background-color: #7B1113;
 }
 /*Highlights Room*/
+.area:hover {
+    color: var(blue);
+}
+
+/* Modal Styles */
+/* .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+} */
+.modal-display{
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Segoe UI';
+}
+.modal-title {
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-weight: 800;
+  font-size: 30px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 50vw;
+  height: 50vh;
+  z-index: 1;
+  display: none;
+}
+.active .modal-overlay {
+  display: block;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 4px black;
+  border-style: solid;
+  transform: translate(-50%, -50%) scale(0);
+  background: white;
+  width: 700px;
+  height: 500px;
+  z-index: 2;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.active .modal-content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(black);
+    transition: color 0.3s;
+}
+
+.close:hover {
+    color: var(red);
+}
+
+/*Floor 1 Modals*/
+
+/*Floor 2 Modals*/
+
+/*Floor 3 Modals*/
+
+/*Floor 4 Modals*/
