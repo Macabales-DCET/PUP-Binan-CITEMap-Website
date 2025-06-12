@@ -137,28 +137,14 @@
     background-color: #7B1113;
 }
 /*Highlights Room*/
-.area:hover {
-    color: var(blue);
-}
+
 
 /* Modal Styles */
-/* .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index: 1000;
-    align-items: center;
-    justify-content: center;
-} */
 .modal-display{
   width: calc(100% - 20px);
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px 0;
+  border: 3px solid black;
   border-radius: 8px;
   font-family: 'Segoe UI';
 }
@@ -206,18 +192,16 @@
     top: 10px;
     font-size: 24px;
     cursor: pointer;
-    color: var(black);
+    color: black;
     transition: color 0.3s;
 }
 
 .close:hover {
-    color: var(red);
+    background-color: red;
 }
 
-/*Floor 1 Modals*/
-
-/*Floor 2 Modals*/
-
-/*Floor 3 Modals*/
-
-/*Floor 4 Modals*/
+/*Modal Images*/
+.roomimage {
+    height: 100%;
+    width: 100%;
+}

@@ -23,7 +23,7 @@ window.onload = () => {
     });
 };
 // Highlights the Area of the Room
-
+  
 // Room Modal
 const roomModal = document.getElementById("roomModal");
 const modalDisplay = document.getElementById("modal-display");
@@ -36,6 +36,14 @@ function closeModal() {
 // Floor 1
 function prayroomButton(target) {
     //alert("This is the campus' prayer room.")
+    document.getElementById("roomModal").classList.add("active");
+    const content = target.getAttribute("data-content");
+    document.getElementById("modal-display").innerHTML = content;
+    const number = target.getAttribute("title");
+    document.getElementById("modal-title").innerHTML = number;
+}
+function r113Button(target) {
+    //alert("This is room no.113.")
     document.getElementById("roomModal").classList.add("active");
     const content = target.getAttribute("data-content");
     document.getElementById("modal-display").innerHTML = content;
@@ -163,7 +171,7 @@ function r102Button(target) {
     document.getElementById("modal-title").innerHTML = number;
 }
 function r104Button(target) {
-    //alert("This is room no.104. It is currently the organization room of the ACES PUP Binan Organization.")
+    //alert("This is room no.104. It is currently an organization room.")
     document.getElementById("roomModal").classList.add("active");
     const content = target.getAttribute("data-content");
     document.getElementById("modal-display").innerHTML = content;
@@ -171,7 +179,7 @@ function r104Button(target) {
     document.getElementById("modal-title").innerHTML = number;
 }
 function cr1Button(target) {
-    //alert("These are the Comfort Rooms and Storage Rooms of the 1st Floor.")
+    //alert("These are the Comfort Rooms and Cleaning Supplies Storage Rooms of the 1st Floor.")
     document.getElementById("roomModal").classList.add("active");
     const content = target.getAttribute("data-content");
     document.getElementById("modal-display").innerHTML = content;
@@ -325,7 +333,7 @@ function r212Button(target) {
     document.getElementById("modal-title").innerHTML = number;
 }
 function cr2Button(target) {
-    //alert("These are the Comfort Rooms and Storage Rooms of the 2nd Floor.")
+    //alert("These are the Comfort Rooms and Cleaning Supplies Storage Rooms of the 2nd Floor.")
     document.getElementById("roomModal").classList.add("active");
     const content = target.getAttribute("data-content");
     document.getElementById("modal-display").innerHTML = content;
@@ -455,7 +463,7 @@ function r312Button(target) {
     document.getElementById("modal-title").innerHTML = number;
 }
 function cr3Button(target) {
-    //alert("These are the Comfort Rooms and Storage Rooms of the 3rd Floor.")
+    //alert("These are the Comfort Rooms and Cleaning Supplies Storage Rooms of the 3rd Floor.")
     document.getElementById("roomModal").classList.add("active");
     const content = target.getAttribute("data-content");
     document.getElementById("modal-display").innerHTML = content;
@@ -537,7 +545,7 @@ function r406Button(target) {
     document.getElementById("modal-title").innerHTML = number;
 }
 function cr4Button(target) {
-    //alert("These are the Comfort Rooms and Storage Rooms of the 4th Floor.")
+    //alert("These are the Comfort Rooms and Cleaning Supplies Storage Rooms of the 4th Floor.")
     document.getElementById("roomModal").classList.add("active");
     const content = target.getAttribute("data-content");
     document.getElementById("modal-display").innerHTML = content;
@@ -545,7 +553,7 @@ function cr4Button(target) {
     document.getElementById("modal-title").innerHTML = number;
 }
 function balcony4Button(target) {
-    //alert("This is the balcony on the 4th Floor.")
+    //alert("This is a balcony on the 4th Floor.")
     document.getElementById("roomModal").classList.add("active");
     const content = target.getAttribute("data-content");
     document.getElementById("modal-display").innerHTML = content;
