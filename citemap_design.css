@@ -133,27 +133,14 @@
     display: block;
 }
 
+.map img {
+    display: block;
+}
+
 .floorbutton.active {
     background-color: #7B1113;
 }
-/*Highlights Room*/
-
-
 /* Modal Styles */
-.modal-display{
-  width: calc(100% - 20px);
-  padding: 5px;
-  margin: 5px 0;
-  border: 3px solid black;
-  border-radius: 8px;
-  font-family: 'Segoe UI';
-}
-.modal-title {
-  text-align: center;
-  font-family: 'Segoe UI';
-  font-weight: 800;
-  font-size: 30px;
-}
 .modal-overlay {
   position: fixed;
   top: 0px;
@@ -183,6 +170,20 @@
 .active .modal-content {
   transition: all 300ms ease-in-out;
   transform: translate(-50%, -50%) scale(1);
+}
+.modal-title {
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-weight: 800;
+  font-size: 30px;
+}
+.modal-display{
+  width: calc(100% - 20px);
+  padding: 5px;
+  margin: 5px 0;
+  border: 3px solid black;
+  border-radius: 8px;
+  font-family: 'Segoe UI';
 }
 
 /* Close Button */
