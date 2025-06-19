@@ -1,12 +1,16 @@
-/*Title*/
+/*Title(for both pages)*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
 .header {
     overflow: hidden;
     background-color: #7B1113;
 }
 .logo {
     float: left;
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: 75px;
     background-color: white;
     border-radius: 50%;
     margin-top: 8px;
@@ -16,15 +20,65 @@
     float: left;
     color: white;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 35px;
     font-weight: 750;
     font-family: 'Segoe UI';
     margin-left: 10px;
 }
-
 .space {
     height: 15px;
 }
+
+/*Homepage Style*/
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 91px);
+    background-image: url('PUP-CITE.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main Menu */
+.menu {
+    border: 2px solid black;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(6px);
+}
+.menu-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 750;
+    font-family: 'Segoe UI';
+}
+.menu-text {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+}
+.nav-button {
+    background-color: grey;
+    padding: 7px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Segoe UI';
+    display: block;
+    margin: 0 auto;
+}
+.nav-button:hover {
+    background-color: #7B1113;
+}
+
 /*Floor Buttons*/
 .elevator {
     display: block;
@@ -37,7 +91,7 @@
     border-color: black;
     border-width: 2px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     font-family: 'Segoe UI';
 }
@@ -52,7 +106,7 @@
     border-color: black;
     border-width: 2px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     font-family: 'Segoe UI';
 }
@@ -67,7 +121,7 @@
     border-color: black;
     border-width: 2px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     font-family: 'Segoe UI';
 }
@@ -82,47 +136,70 @@
     border-color: black;
     border-width: 2px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     font-family: 'Segoe UI';
 }
 .floor4:hover {
     background-color: #7B1113;
 }
+
+.backtohome {
+    background-color: grey;
+    padding: 7px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI';
+}
+.backtohome:hover {
+    background-color: #7B1113;
+}
+
 .space2 {
     height: 20px;
+}
+/*Map Image*/
+.responsive-map {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
 }
 /*Maps*/
 .map1 {
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    width: 1500px;
-    height: 700px;
+    width: 100%;
+    height: auto;
 }
 
 .map2 {
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    width: 1500px;
-    height: 700px;
+    width: 100%;
+    height: auto;
 }
 
 .map3 {
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    width: 1500px;
-    height: 700px;
+    width: 100%;
+    height: auto;
 }
 
 .map4 {
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    width: 1500px;
-    height: 700px;
+    width: 100%;
+    height: auto;
 }
 /*Active Map*/
 .map {
@@ -162,7 +239,7 @@
   transform: translate(-50%, -50%) scale(0);
   background: white;
   width: 700px;
-  height: 500px;
+  height: 600px;
   z-index: 2;
   padding: 20px;
   box-sizing: border-box;
@@ -175,7 +252,7 @@
   text-align: center;
   font-family: 'Segoe UI';
   font-weight: 800;
-  font-size: 30px;
+  font-size: 40px;
 }
 .modal-display{
   width: calc(100% - 20px);
@@ -183,7 +260,23 @@
   margin: 5px 0;
   border: 3px solid black;
   border-radius: 8px;
+  font-size: 25px;
   font-family: 'Segoe UI';
+}
+.modal-image{
+  width: calc(100% - 20px);
+  padding: 5px;
+  margin: 5px 0;
+  border: 3px solid black;
+  border-radius: 8px;
+  overflow: auto;
+  white-space: nowrap;
+}
+/*Modal Images*/
+.roomimage {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
 }
 
 /* Close Button */
@@ -199,10 +292,4 @@
 
 .close:hover {
     background-color: red;
-}
-
-/*Modal Images*/
-.roomimage {
-    height: 100%;
-    width: 100%;
 }
