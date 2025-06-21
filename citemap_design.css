@@ -239,7 +239,7 @@ html, body {
   transform: translate(-50%, -50%) scale(0);
   background: white;
   width: 700px;
-  height: 610px;
+  height: 625px;
   z-index: 2;
   padding: 20px;
   box-sizing: border-box;
